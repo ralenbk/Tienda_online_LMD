@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bombas Herbal</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo-lau"><img src="img/logo_lau.png"></a>
+            <a href="index.html" class="logo"><button class="button-48" role="button"><span class="text">Tienda</span></button></a>
+            <!-- <a href="contacto.html" class="logo"><button class="button-48" role="button"><span class="text">Contacto</span></button></a> -->
+            <!--Cart-icon-->
+            <div class="cart-icon">
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <span id="cart-count">0</span> 
+            </div>
+        </div>
+            <!--Cart-->
+            <div class="cart">
+                <h2 class="cart-title">Tu Carrito</h2>
+                <!--Content-->
+                <div class="cart-content-wrapper">
+                    <div class="cart-content"></div>
+                </div>    
+                <!--Total-->
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">$0</div>
+                    </div>
+                    <!--Buy Button-->
+                    <button type="button" class="btn-buy">Realizar Pedido</button>
+                    <!--Cart Close-->
+                    <i class='bx bx-x ' id="close-cart"></i>
+            </div>
+    </header>
+    <!--Shop-->
+    <section class="shop container">
+        <h1 class="section-title producto-h1">Bombas Herbal</h1>
+        <!--Content-->
+        <div class="shop-content">
+            <!--Producto-->
+            <div class="producto-box">
+                <img src="img/imagen 20.jpeg" alt="Product" class="product-img img-agregar-carrito">
+                <h2 class="product-title producto-hidden">Bombas Herbal</h2>
+                <span class="price producto-hidden">$330</span>
+                <input class="formulario__submit add-cart" id="cart-icon" type="submit" value="Agregar al Carrito">
+            </div>
+            <!--Descripcion-->
+            <form class="formulario">
+                <h2 class="producto-h2"></h2>
+             <select id="product-select" class="formulario__campo">
+                <option value ="Ninguna Fragancia Seleccionada" class="formulario__option" disabled selected>-- Seleccionar fragancias --</option>
+                <option value="Amor">Amor(Rosas - Laurel - Eucalipto - Cedro)</option>
+                <option value="Armonía">Armonía(Caléndula - Manzanilla - Ruda - Cedro)</option>
+                <option value="Destrabar">Destrabar(Mirra - Caléndula - Te Verde - Cedro)</option>
+                <option value="Fortuna">Fortuna(Canela - Anís - Lemon Grass - Cedro)</option>
+                <option value="Limpiar">Limpiar(Canela - Palo Santo - Romero - Cedro)</option>
+                <option value="Purificar">Purificar(Salvia - Laurel - Eucalipto - Cedro )</option>
+                <option value="Renacer">Renacer(Citronella - Naranja - Romero - Ruda - Cedro)</option>
+                <option value="7 Poderes">7 Poderes(Lavanda - Ruda - Laurel - Eucalipto - Hierba Buena - Inca Yuyo - Cedro)</option>
+             </select> 
+            <div> <h2 class="producto-h2">Las bombitas son enormes aliadas para sahumar espacios o realizar limpiezas profundas.</h2>
+               <p class="producto-p">Contenido: 4 bombitas de defumación activada.</p>
+            </form>
+            
+        </div>
+    </div>
+</section>
+    <footer class="footer">
+        <p class="footer--texto"> Ramiro Cavallero - Todos los derechos Reservados © 2023.</p>
+    </footer>   
+    <!--Link to JS-->
+    <script src="js/main.js"></script>
+</body>
+</html>
