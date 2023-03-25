@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aceite Esencial Ambar</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo-lau"><img src="img/logo_lau.png"></a>
+            <a href="index.html" class="logo"><button class="button-48" role="button"><span class="text">Tienda</span></button></a>
+            <!-- <a href="contacto.html" class="logo"><button class="button-48" role="button"><span class="text">Contacto</span></button></a> -->
+            <!--Cart-icon-->
+            <div class="cart-icon">
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <span id="cart-count">0</span> 
+            </div>
+        </div>
+            <!--Cart-->
+            <div class="cart">
+                <h2 class="cart-title">Tu Carrito</h2>
+                <!--Content-->
+                <div class="cart-content-wrapper">
+                    <div class="cart-content"></div>
+                </div>    
+                <!--Total-->
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">$0</div>
+                    </div>
+                    <!--Buy Button-->
+                    <button type="button" class="btn-buy">Realizar Pedido</button>
+                    <!--Cart Close-->
+                    <i class='bx bx-x ' id="close-cart"></i>
+            </div>
+    </header>
+    <!--Shop-->
+    <section class="shop container">
+        <h1 class="section-title producto-h1">Aceite Esencial Ambar</h1>
+        <!--Content-->
+        <div class="shop-content">
+            <!--Producto-->
+            <div class="producto-box">
+                <img src="img/imagen 28.jpeg" alt="Product" class="product-img img-agregar-carrito">
+                <h2 class="product-title producto-hidden">Aceite Esencial Ambar</h2>
+                <span class="price producto-hidden">$300</span>
+                <input class="formulario__submit add-cart" id="cart-icon" type="submit" value="Agregar al Carrito">
+            </div>
+            <!--Descripcion-->
+            <form class="formulario">
+                <h2 class="producto-h2"></h2>
+             <select id="product-select" class="formulario__campo">
+                <option value ="Ninguna Fragancia Seleccionada" class="formulario__option" disabled selected>-- Seleccionar fragancias --</option>
+                <option value="Coco Vaí">Coco Vaí</option>
+                <option value="Citronella">Citronella</option>
+                <option value="Eucaliptus">Eucaliptus</option>
+                <option value="Incienso">Incienso</option>
+                <option value="Jazmín">Jazmín</option>
+                <option value="Lavanda">Lavanda</option>
+                <option value="Limón">Limón</option>
+                <option value="Manzana Canela">Manzana Canela</option>
+                <option value="Miel y Limón">Miel y Limón</option>
+                <option value="Mirra">Mirra</option>
+                <option value="Nag Champa">Nag Champa</option>
+                <option value="Naranja Pimienta">Naranja Pimienta</option>
+                <option value="New Delhi">New Delhi</option>
+                <option value="Orange">Orange</option>
+                <option value="Oriente">Oriente</option>
+                <option value="Palo Santo">Palo Santo</option>
+                <option value="Patehouly">Patehouly</option>
+                <option value="Sándalo">Sándalo</option>
+                <option value="Vainila">Vainila</option>
+                <option value="Vrindavan">Vrindavan</option>
+             </select> 
+            <div> <h2 class="producto-h2"></h2>
+               <p class="producto-p">Contenido: Frasquito de Aceite / 10ml.</p>
+            </form>
+            
+        </div>
+    </div>
+</section>
+    <footer class="footer">
+        <p class="footer--texto"> Ramiro Cavallero - Todos los derechos Reservados © 2023.</p>
+    </footer>   
+    <!--Link to JS-->
+    <script src="js/main.js"></script>
+</body>
+</html>

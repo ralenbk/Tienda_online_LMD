@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tibetanos</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo-lau"><img src="img/logo_lau.png"></a>
+            <a href="index.html" class="logo"><button class="button-48" role="button"><span class="text">Tienda</span></button></a>
+            <!-- <a href="contacto.html" class="logo"><button class="button-48" role="button"><span class="text">Contacto</span></button></a> -->
+            <!--Cart-icon-->
+            <div class="cart-icon">
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <span id="cart-count">0</span> 
+            </div>
+        </div>
+            <!--Cart-->
+            <div class="cart">
+                <h2 class="cart-title">Tu Carrito</h2>
+                <!--Content-->
+                <div class="cart-content-wrapper">
+                    <div class="cart-content"></div>
+                </div>    
+                <!--Total-->
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">$0</div>
+                    </div>
+                    <!--Buy Button-->
+                    <button type="button" class="btn-buy">Realizar Pedido</button>
+                    <!--Cart Close-->
+                    <i class='bx bx-x ' id="close-cart"></i>
+            </div>
+    </header>
+    <!--Shop-->
+    <section class="shop container">
+        <h1 class="section-title producto-h1">Tibetanos</h1>
+        <!--Content-->
+        <div class="shop-content">
+            <!--Producto-->
+            <div class="producto-box">
+                <img src="img/imagen 4.jpeg" alt="Product" class="product-img img-agregar-carrito">
+                <h2 class="product-title producto-hidden">Tibetanos</h2>
+                <span class="price producto-hidden">$460</span>
+                <input class="formulario__submit add-cart" id="cart-icon" type="submit" value="Agregar al Carrito">
+            </div>
+            <!--Descripcion-->
+            <form class="formulario">
+                <h2 class="producto-h2"></h2>
+             <select id="product-select" class="formulario__campo">
+                <option value ="Ninguna Fragancia Seleccionada" class="formulario__option" disabled selected>-- Seleccionar fragancias --</option>
+                <option value="Abundacia">Abundacia(Vainillas Encantadas)</option>
+                <option value="Amor Real">Amor Real(Jazmín)</option>
+                <option value="Armonía">Armonía(Vrindavan)</option>
+                <option value="Buena Energía">Buena Energía(Dulces Frutillas)</option>
+                <option value="Buenas Vibras">Buenas Vibras(Krishna)</option>
+                <option value="Optimismo">Calidez(Canela Mística)</option>
+                <option value="Dulzura">Dulzura(Berry Kiss)</option>
+                <option value="Empoderamiento">Empoderamiento(Frutos Rojos)</option>
+                <option value="Espiritualidad">Espiritualidad(Real Champa)</option>
+                <option value="Generosidad">Generosidad(Reina De La Noche)</option>
+                <option value="Gratitud">Gratitud(Exquisito Ratnamala)</option>
+                <option value="Iluminación">Iluminación(Incienso Consagrado)</option>
+                <option value="Pasión">Pasión(Noche De Ensueños)</option>
+                <option value="90' De Aroma Intenso">90' De Aroma Intenso(Súper Palo Santo)</option>
+             </select> 
+            <div> <h2 class="producto-h2">Los sahumerios son de aromas naturales, intensos y extra fuerte.
+                Tienen la capacidad de llevar a tu hogar el equilibrio, energía y modificar tus estados de animo.</h2>
+               <p class="producto-p">Contenido:  8 Sahumerios Gruesos / Extra Fuertes / Duración aprox. 70'.</p>
+            </form>
+            
+        </div>
+    </div>
+</section>
+    <footer class="footer">
+        <p class="footer--texto"> Ramiro Cavallero - Todos los derechos Reservados © 2023.</p>
+    </footer>   
+    <!--Link to JS-->
+    <script src="js/main.js"></script>
+</body>
+</html>

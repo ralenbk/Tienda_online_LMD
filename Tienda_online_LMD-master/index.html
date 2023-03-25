@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo-lau"><img src="img/logo_lau.png"></a>
+            <a href="#" class="logo"><button class="button-48" role="button"><span class="text">Tienda</span></button></a>
+            <!--Cart-icon-->
+            <div class="cart-icon">
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <span id="cart-count">0</span>
+            </div>
+        </div>
+            <!--Cart-->
+            <div class="cart">
+                <h2 class="cart-title">Tu Carrito</h2>
+                <!--Content-->
+                <div class="cart-content-wrapper">
+                    <div class="cart-content"></div>
+                </div>    
+                <!--Total-->
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">$0</div>
+                    </div>
+                    <!--Buy Button-->
+                    <button type="button" class="btn-buy">Realizar Pedido</button>
+                    <!--Cart Close-->
+                    <i class='bx bx-x ' id="close-cart"></i>
+            </div>
+    </header>
+        
+    <!--Shop-->
+    <!-- <p class="buttons"><a href="https://wa.me/3515418960" ><i class='bx bxl-whatsapp' ></i></a></p> -->
+    <section class="shop container">
+        <h2 class="section-title">Nuestros Productos</h2>
+        <p class="stock-advise">¡Todos los productos están sujetos a stock, tu consulta no molesta!</p>
+        <!--Content-->
+        <div class="shop-content">
+            <!--Box 1-->
+            <div class="product-box">
+                <a href="1mini_tibetanos.html">
+                <img src="img/imagen 2.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Aromanza</p> 
+                <h2 class="product-title">Mini Tibetanos</h2>
+                <span class="price">$360</span>
+                
+            </div>
+            <!--Box 2-->
+            <div class="product-box">
+                <a href="2magistrales.html">
+                    <img src="img/imagen 3.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Aromanza</p>
+                <h2 class="product-title">Magistrales</h2>
+                <span class="price">$380</span>
+                
+            </div>
+            <!--Box 2.0-->
+            <div class="product-box">
+                <a href="2-0magistrales_nuevos.html">
+                    <img src="img/Magistrales_nuevo.jpg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Aromanza</p>
+                <h2 class="product-title">Magistrales Resina Natural</h2>
+                <span class="price">$390</span>
+            </div>    
+            <!--Box 3-->
+            <div class="product-box">
+                <a href="3organicos.html">
+                    <img src="img/imagen 5.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Aromanza</p>
+                <h2 class="product-title">Orgánicos</h2>
+                <span class="price">$370</span>
+                
+            </div>
+            <!--Box 4-->
+            <div class="product-box">
+                <a href="4blend.html">
+                    <img src="img/imagen 9.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Aromanza</p>
+                <h2 class="product-title">Blend</h2>
+                <span class="price">$380</span>
+                
+            </div>
+            <!--Box 5-->
+            <div class="product-box">
+                <a href="5maya.html">
+                    <img src="img/imagen 8.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Aromanza</p>
+                <h2 class="product-title">Maya</h2>
+                <span class="price">$430</span>
+                
+            </div>
+            <!--Box 6-->
+            <div class="product-box">
+                <a href="6tibetanos.html">
+                    <img src="img/imagen 4.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Aromanza</p>
+                <h2 class="product-title">Tibetanos</h2>
+                <span class="price">$460</span>
+                
+            </div>
+            <!--Box 7-->
+            <div class="product-box">
+                <a href="7rama.html">
+                    <img src="img/imagen 1.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Aromanza</p>
+                <h2 class="product-title">Rama</h2>
+                <span class="price">$460</span>
+                
+            </div>
+            <!--Box 8-->
+            <div class="product-box">
+                <a href="8natural.html">
+                    <img src="img/imagen 6.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Sagrada Madre</p>
+                <h2 class="product-title">Natural</h2>
+                <span class="price">$380</span>
+                
+            </div>
+            <!--Box 9-->
+            <div class="product-box">
+                <a href="9linea_hierbas.html">
+                    <img src="img/imagen 7.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Sagrada Madre</p>
+                <h2 class="product-title">Linea Hierbas</h2>
+                <span class="price">$410</span>
+                
+            </div>
+            <!--Box 10-->
+            <div class="product-box">
+                <a href="10sagrada_geometria.html">
+                    <img src="img/imagen 18.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Sagrada Madre</p>
+                <h2 class="product-title">Sagrada Geometría</h2>
+                <span class="price">$340</span>
+                
+            </div>
+            <!--Box 11-->
+            <div class="product-box">
+                <a href="11siete_dias_limpieza.html">
+                    <img src="img/imagen 19.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Sagrada Madre</p>
+                <h2 class="product-title">7 días de limpieza</h2>
+                <span class="price">$390</span>
+                
+            </div>
+            <!--Box 12-->
+            <div class="product-box">
+                <a href="12bombas_herbal.html">
+                    <img src="img/bombas_herbal_index.jpg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Sagrada Madre</p>
+                <h2 class="product-title">Bombas Herbal</h2>
+                <span class="price">$330</span>
+                
+            </div>
+            <!--Box 13-->
+            <div class="product-box">
+                <a href="13hierbas.html">
+                    <img src="img/hierbas_index.jpg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Sagrada Madre</p>
+                <h2 class="product-title">Hierbas</h2>
+                <span class="price">$280</span>
+                
+            </div>
+            <!--Box 14-->
+            <div class="product-box">
+                <a href="14perlas.html">
+                    <img src="img/perlas_aromaticas_index.jpg.crdownload" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Sagrada Madre</p>
+                <h2 class="product-title">Perlas</h2>
+                <span class="price">$400</span>
+                
+            </div>
+            <!--Box 15-->
+            <div class="product-box">
+                <a href="15siete_cakras.html">
+                    <img src="img/imagen 23.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Sagrada Madre</p>
+                <h2 class="product-title">Siete Chakras</h2>
+                <span class="price">$390</span>
+                
+            </div>
+            <!--Box 16-->
+            <div class="product-box">
+                <a href="16piramide_energetica.html">
+                    <img src="img/piramide_energetica_index.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Sagrada Madre</p>
+                <h2 class="product-title">Pirámide Energética</h2>
+                <span class="price">$500</span>
+                
+            </div>
+            <!--Box 17-->
+            <div class="product-box">
+                <a href="17carbon_defumador.html">
+                    <img src="img/imagen 24.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Sagrada Madre</p>
+                <h2 class="product-title">Carbón Defumador</h2>
+                <span class="price">$90</span>
+                
+            </div>
+            <!--Box 18-->
+            <div class="product-box">
+                <a href="18bombas_herbal_xl.html">
+                    <img src="img/imagen 25.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Sagrada Madre</p>
+                <h2 class="product-title">Bombas Herbal XL</h2>
+                <span class="price">$340</span>
+                
+            </div>
+            <!--Box 19-->
+            <div class="product-box">
+                <a href="19pastilla_defumacion.html">
+                    <img src="img/imagen 26.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Sagrada Madre</p>
+                <h2 class="product-title">Pastilla Defumación</h2>
+                <span class="price">$410</span>
+                
+            </div>
+            <!--Box 20-->
+            <div class="product-box">
+                <a href="19-2bombitas_defumacion_activada.html">
+                    <img src="img/bombitas_defumacion_2.png" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Sagrada Madre</p>
+                <h2 class="product-title">Bombita Defumación Activada</h2>
+                <span class="price">$380</span>
+                
+            </div>
+            <!--Box 21-->
+            <div class="product-box">
+                <a href="21-2kit_humito.html">
+                    <img src="img/kit_humito_2.webp.crdownload" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Sagrada Madre</p>
+                <h2 class="product-title">Kit Humito Sagrado</h2>
+                <span class="price">$400</span>
+                
+            </div>
+            <!--Box 22-->
+            <div class="product-box">
+                <a href="20aceites_hornito_vishnu.html">
+                    <img src="img/imagen 27.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Vishnu</p>
+                <h2 class="product-title">Aceite Esencial </h2>
+                <span class="price">$330</span>
+                
+            </div>
+            <!--Box 23-->
+            <div class="product-box">
+                <a href="21aceite_hornito_ambar.html">
+                    <img src="img/imagen 28.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Ambar</p>
+                <h2 class="product-title">Aceite Esencial</h2>
+                <span class="price">$300</span>
+                
+            </div>
+            <!--Box 24-->
+            <div class="product-box">
+                <a href="22velita.html">
+                    <img src="img/imagen 29.jpeg" alt="Product" class="product-img">
+                </a>
+                <p class="marca">Iluminarte</p>
+                <h2 class="product-title">Velitas de noche</h2>
+                <span class="price">$280</span>
+                
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p class="footer--texto">Ramiro Cavallero - Todos los derechos Reservados © 2023.</p>
+    </footer>   
+    <button class="buttons"><a href="https://wa.me/3515418960" class="whatsapp-btn"><i class='bx bxl-whatsapp' ></i></a></button>
+    <!--Link to JS-->
+    <script src="js/main.js"></script>
+</body>
+</html>
